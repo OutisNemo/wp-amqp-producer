@@ -1,0 +1,12 @@
+{
+    "name": "outisnemo/wp-amqp-producer",
+    "authors": [
+        {
+            "name": "outisnemo",
+            "email": "hello@outisnemo.com"
+        }
+    ],
+    "require": {
+        "php-amqplib/php-amqplib": "^2.10"
+    }
+}
