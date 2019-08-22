@@ -1,8 +1,8 @@
 {
-    "name": "outisnemo/wp-amqp-producer",
+    "name": "OutisNemo/wp-amqp-producer",
     "authors": [
         {
-            "name": "outisnemo",
+            "name": "OutisNemo",
             "email": "hello@outisnemo.com"
         }
     ],

@@ -9,7 +9,7 @@ use PhpAmqpLib\Wire;
 /**
  * @package    Wp_Amqp_Producer
  * @subpackage Wp_Amqp_Producer/public
- * @author     outisnemo <hello@outisnemo.com>
+ * @author     OutisNemo <hello@outisnemo.com>
  */
 class Wp_Amqp_Producer_Public {
     /** @var AMQPChannel */
@@ -92,7 +92,7 @@ class Wp_Amqp_Producer_Public {
     }
 
     public function save_post_callback($post_id, $post, $update) {
-        if (wp_is_post_revision($post->ID)) {
+        if (wp_is_post_revision($post_id)) {
             return;
         }
 
@@ -131,10 +131,7 @@ class Wp_Amqp_Producer_Public {
             return false;
         }
 
-        $headers = [
-            'delivery_mode' => $this->deliveryMode
-        ];
-
+        $headers = ['delivery_mode' => $this->deliveryMode];
         foreach ($this->extraHeaders as $k => $v) {
             $headers[$k] = $v;
         }

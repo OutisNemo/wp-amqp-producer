@@ -6,7 +6,7 @@
  * Plugin URI:        https://github.com/OutisNemo/wp-amqp-producer
  * Description:       A WordPress plugin for emitting AMQP messages for post create, update, and delete events.
  * Version:           1.0.0
- * Author:            outisnemo
+ * Author:            OutisNemo
  * Author URI:        https://github.com/OutisNemo
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt

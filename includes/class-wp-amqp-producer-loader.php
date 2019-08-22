@@ -8,7 +8,7 @@
  *
  * @package    Wp_Amqp_Producer
  * @subpackage Wp_Amqp_Producer/includes
- * @author     outisnemo <hello@outisnemo.com>
+ * @author     OutisNemo <hello@outisnemo.com>
  */
 class Wp_Amqp_Producer_Loader {
 
